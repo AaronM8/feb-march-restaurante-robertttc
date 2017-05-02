@@ -5,6 +5,22 @@
 h1, h2, h3, h4, h5 ,h6 {
   font-weight: 700;
 }
+.lobster-text{
+  font-family: 'Lobster',cursive;
+}
+
+.orange-text {
+  color: #F8512F; /* orange color */
+}
+
+.raleway-text{
+  font-family: 'Raleway',sans-serif;
+
+}
+
+.light-text {
+  font-weight: 400;
+}
 /* NAV BAR SECTION */
 .navbar-default{
   background-color: transparent;
@@ -70,4 +86,24 @@ h1, h2, h3, h4, h5 ,h6 {
   background-color: rgba(0, 0, 0, .15)
   text-shadow: 1px 1px rgba(0, 0, 0, .4);
 
+}
+
+/*Our Story */
+
+#our-story {
+  margin-top: 75px;
+}
+
+#our-story h1.lobster-text {
+  text-shadow: 1px 1px #a7a7a7;
+  font-size: 4.5em;
+
+}
+
+#year-text {
+  position: absolute;
+  font-size: 10em;
+  color: rgba(0, 0, 0, .08);
+  z-index: 0;
+  font-family: 'Playfair Display', serif;
 }
