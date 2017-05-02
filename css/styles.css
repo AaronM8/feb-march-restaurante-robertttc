@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5 ,h6 {
 
 }
 
+.white-text{
+  color: #fff;
+}
+
 .light-text {
   font-weight: 400;
 }
@@ -106,4 +110,31 @@ h1, h2, h3, h4, h5 ,h6 {
   color: rgba(0, 0, 0, .08);
   z-index: 0;
   font-family: 'Playfair Display', serif;
+}
+
+/* Fresno Bee */
+
+#review {
+background-image: url('../img/food_review.jpg');
+height: 450px;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+#grey-box{
+background-color: rgba(0, 0, 0, .4);
+margin-top: 200px;
+text-shadow: 1px 1px rgba(0,0,0,.05);
+margin-top: 163px;
+padding: 10px 0px;
+border-radius: 5px;
+}
+#grey-box h3 {
+  font-size: 50px;
+}
+#grey-box p {
+  color: #fff;
+  font-size: 18px;
 }
