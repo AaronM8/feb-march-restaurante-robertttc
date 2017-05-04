@@ -138,3 +138,39 @@ border-radius: 5px;
   color: #fff;
   font-size: 18px;
 }
+/*---- MENU SECTION ---*/
+#menu-section{
+  background-image: url('../img/black_linen.png');
+  background-size: contain;
+  background-position: center;
+  height: 650px;
+}
+
+.food-item {
+  background-color: #fff;
+}
+
+#menu-section h1 {
+  font-size: 60px;
+}
+
+.nav>li>a{
+  color: #F8512F;
+  text-transform: uppercase;
+
+
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #F8512F;
+  text-transform: uppercase;
+}
+
+.nav-tabs>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover{
+  background-color: rgba(0, 0, 0, .003);
+
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs>li>a:hover{
+  border: none;
+}
